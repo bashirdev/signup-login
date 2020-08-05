@@ -57,4 +57,3 @@ function isDataEqual(){
 }
 
 
-// git remote add origin https://github.com/bashirdev/signup-login.git
