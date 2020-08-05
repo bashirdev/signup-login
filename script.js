@@ -57,4 +57,7 @@ function isDataEqual(){
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c6de782b9cd4cca200a14e81e72eec45264c73f8
