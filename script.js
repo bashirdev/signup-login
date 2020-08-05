@@ -1,8 +1,8 @@
 var myArr=[];
 document.getElementById('signup-btn').addEventListener('click', ()=>{
    let fullName=document.getElementById('signup-name').value;
-   var signUpemail=document.getElementById('signup-email').value;
-   var signUppassword=document.getElementById('signup-password').value;
+   let signUpemail=document.getElementById('signup-email').value;
+   let signUppassword=document.getElementById('signup-password').value;
   
 
     let signupData={
@@ -32,11 +32,11 @@ document.getElementById('signin-btn').addEventListener('click', ()=>{
 })
 
 function isDataEqual(){
-    var signEmail=document.getElementById('signin-email').value;
-     var signPassword=document.getElementById('signin-password').value;
+    let signEmail=document.getElementById('signin-email').value;
+     let signPassword=document.getElementById('signin-password').value;
     myArr.forEach((data) =>{
         if(signEmail==data.email && signPassword == data.password ){
-            var h1=document.getElementById('h1');
+            let h1=document.getElementById('h1');
             h1.innerHTML="😍 Successfully login";
             h1.style.backgroundColor='green';
             h1.style.color='#fff';
@@ -57,4 +57,4 @@ function isDataEqual(){
 }
 
 
-// git remote add origin https://github.com/bashirdev/signup-login.git
+
